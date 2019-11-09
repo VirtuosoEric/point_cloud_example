@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+<node pkg="point_cloud_example" type="pub_point_cloud.py" name="pub_point_cloud" output="screen"/>
+<node pkg="point_cloud_example" type="read_point_cloud.py" name="read_point_cloud" output="screen"/>
+<node pkg="tf" type="static_transform_publisher" name="pub_map" args="0 0 0 0 0 0 1 /map /new_frame 10" />
+</launch>
