@@ -1,31 +1,36 @@
 {
-  "configurations": [
-    {
-      "browse": {
-        "databaseFilename": "",
-        "limitSymbolsToIncludedHeaders": true
-      },
-      "includePath": [
-        "/home/eric/catkin_ws/devel/include/**",
-        "/opt/ros/kinetic/include/**",
-        "/home/eric/catkin_ws/src/cob_scan_unifier/include/**",
-        "/home/eric/catkin_ws/src/control_toolbox/include/**",
-        "/home/eric/catkin_ws/src/costmap_converter/include/**",
-        "/home/eric/catkin_ws/src/eband_local_planner/include/**",
-        "/home/eric/catkin_ws/src/joystick_node/include/**",
-        "/home/eric/catkin_ws/src/ROS_Basic/param_server/include/**",
-        "/home/eric/catkin_ws/src/common_tutorials/pluginlib_tutorials/include/**",
-        "/home/eric/catkin_ws/src/point_cloud_example/include/**",
-        "/home/eric/catkin_ws/src/ROS_Basic/pub_n_sub/include/**",
-        "/home/eric/catkin_ws/src/realtime_tools/include/**",
-        "/home/eric/catkin_ws/src/ROS_Basic/service_n_actionlib/include/**",
-        "/home/eric/catkin_ws/src/teb_local_planner/include/**",
-        "/home/eric/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
-        "/home/eric/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
-        "/home/eric/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
-        "/usr/include/**"
-      ],
-      "name": "ROS"
-    }
-  ]
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/eric/catkin_ws/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/eric/catkin_ws/src/cob_scan_unifier/include/**",
+                "/home/eric/catkin_ws/src/control_toolbox/include/**",
+                "/home/eric/catkin_ws/src/costmap_converter/include/**",
+                "/home/eric/catkin_ws/src/eband_local_planner/include/**",
+                "/home/eric/catkin_ws/src/joystick_node/include/**",
+                "/home/eric/catkin_ws/src/ROS_Basic/param_server/include/**",
+                "/home/eric/catkin_ws/src/common_tutorials/pluginlib_tutorials/include/**",
+                "/home/eric/catkin_ws/src/point_cloud_example/include/**",
+                "/home/eric/catkin_ws/src/ROS_Basic/pub_n_sub/include/**",
+                "/home/eric/catkin_ws/src/realtime_tools/include/**",
+                "/home/eric/catkin_ws/src/ROS_Basic/service_n_actionlib/include/**",
+                "/home/eric/catkin_ws/src/teb_local_planner/include/**",
+                "/home/eric/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+                "/home/eric/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+                "/home/eric/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
 }
